@@ -1,0 +1,8 @@
+streamlit==1.31.0
+spacy==3.7.2
+transformers==4.38.2
+pandas==2.2.1
+psutil==5.9.8
+torch==2.2.1
+
+spacy[en_core_web_sm] @ git+https://github.com/explosion/spacy-models.git#egg=spacy[en_core_web_sm] & python -m spacy download en_core_web_sm
